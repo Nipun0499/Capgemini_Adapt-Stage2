@@ -4,7 +4,7 @@ import java.util.*;
 public class Source {
 
    public ArrayList<String> copy(ArrayList<String> list) {
-      return list;
+      return new ArrayList<String>(list);
    }
 
    public String PrintIndex(ArrayList<String> list) {
